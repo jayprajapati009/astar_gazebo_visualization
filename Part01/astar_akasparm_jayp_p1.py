@@ -512,7 +512,7 @@ def saveAnimation(animation_array):
     print("Generating the video file.")
     # create the video object
     video = cv2.VideoWriter(
-        'shortest.mp4', cv2.VideoWriter_fourcc(*'MP4V'), 50, (600, 250))
+        'shortest.mp4', cv2.VideoWriter_fourcc('m', 'p', '4', 'v'), 50, (600, 200))
 
     # write all the saved frames in the video
     for i in range(len(animation_array)):
