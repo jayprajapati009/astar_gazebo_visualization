@@ -627,9 +627,9 @@ def main():
             print("Invalid Choice")
 
         # display the coordinates
-        print("\nStart Point = [", start_x, ", ",
-              start_y, ", ", start_theta, "]")
-        print("Goal Point = [", goal_x, ", ", goal_y, ", ", 0, "]")
+        print("\nStart Point = [", start_x-50, ", ",
+              start_y-100, ", ", start_theta, "]")
+        print("Goal Point = [", goal_x-50, ", ", goal_y-100, ", ", 0, "]")
 
         # make the canvas
         canvas = createCanvas()
