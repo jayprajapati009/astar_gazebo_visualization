@@ -260,7 +260,7 @@ def generateChildren(node):
         [rpm2, 0],
         [rpm2, rpm2],
         [rpm1, rpm2],
-        [rpm2, rpm2]
+        [rpm2, rpm1]
     ]
 
     # Get the x, y and theta of the node
